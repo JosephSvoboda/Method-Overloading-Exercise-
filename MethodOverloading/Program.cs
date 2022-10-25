@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(AddMethod.Add(1, 2, true));
+            
         }
     }
 }
